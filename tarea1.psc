@@ -1,48 +1,42 @@
 Algoritmo tarea1
-	numero1<-0
-	numero2<-0
-	mayornum<-0
-	escribir "Ingresar el primer valor: "
-	leer numero1
-	escribir "Ingrese el primer valor: "
-	leer numero2
-	// determinar cual es el mayor
-	si numero1 > numero2 entonces 
-		mayornum <- numero1
-		escribir "El numero mayor es: ",mayornum
-		//determinar si esta dentro o no 
-		si mayornum > 10 y mayornum < 100 Entonces
-			escribir "el numero mayor (",numero1 ,") se encuentra dentro de 10 a 100"
+	primervalor<-0
+	segundovalor<-0
+	numeromayor<-0
+	Escribir "Valor 1:"
+	Leer primervalor
+	Escribir "Valor 2:"
+	Leer primervalor
+	
+	Si numero1 > numero2 entonces
+		numeromayor <- numero1
+		Escribir "Valor mayor:",numeromayor
+		
+		Si numeromayor > 10 y numeromayor < 100 Entonces
+			Escribir "El: ",numero1 ," si esta entre 10 a 100"
 			
-			//funcion par o impar
-			si mayornum mod 2 = 0 Entonces
-				escribir "es par."
+			Si numeromayor mod 2 = 0 entonces
+				Escribir "Par."
 			SiNo
-				escribir "es impar."
-			fin si
+				Escribir "Impar"
+			Fin Si
 		SiNo
-			escribir "el numero mayor no se encuentra entre 10 y 100."
-		fin si
-		
+			Escribir "El valor mayor no se encuentra dentro de 10 y 100."
+		Fin Si
+		 
 	SiNo
-		mayornum <- numero2
-		escribir "el numero mayor (",numero1 ,") se encuentra dentro de 10 a 100"
-		
-		
-		si mayornum mod 2 = 0 entonces 
-			escribir "es par."
+		numeromayor <- numero2
+		Escribir "Valor mayor:",numeromayor
+		Si numeromayor > 10 y numeromayor < 100 Entonces
+			Escribir "El: ",numero2 ," si esta entre 10 a 100"
+			Si numeromayor mod 2 = 0 Entonces
+				Escribir "Par."
+			SiNo
+				Escribir "Impar"
+			Fin Si
 		SiNo
-			escribir "es impar."
-		fin si
-	SiNo
-		escribir "el numero mayor no se encuentra entre 10 y 100."
-	fin si
-		
-		
-		
-			FinSi
-		FinSi
-	FinSi
-	
-	
+			Escribir "El valor mayor no se encuentra dentro de 10 y 100."
+		Fin Si
+		 
+	Fin Si
+
 FinAlgoritmo
