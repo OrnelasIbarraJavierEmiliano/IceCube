@@ -6,10 +6,10 @@ Proceso Ciclo_Repetir_Lonch
 		vl1=0
 		vl2=0
 		
-		//ciclo para repetir si la contraseña esta correcta  ice cube 
+		//ciclo para repetir si la contraseÃ±a esta correcta  ice cube 
 		Repetir
 			
-			Escribir "Ingrese contraseña: ";
+			Escribir "Ingrese contraseÃ±a: ";
 			Leer cl;
 			Si cl=contra Entonces
 				Repetir
@@ -58,9 +58,9 @@ Proceso Ciclo_Repetir_Lonch
 						cont2<-cont2+1;
 					FinSi
 					Si opc=3 Entonces
-						Escribir "Ingrese primer valor: ";
+						Escribir "Ingrese primer dato: ";
 						Leer vl1;
-						Escribir "Ingrese segundo valor: ";
+						Escribir "Ingrese segundo dato: ";
 						Leer vl2;
 						
 						
@@ -98,7 +98,7 @@ Proceso Ciclo_Repetir_Lonch
 					
 				Hasta Que opc=5
 				
-				//Verifica si la contraseña es incorrecta ingresa mensaje y repite el ciclo hasta que de correcta
+				//Verifica si la contraseÃ±a es incorrecta ingresa mensaje y repite el ciclo hasta que de correcta
 			SiNo
 				Escribir "clave denegada ";
 			FinSi
